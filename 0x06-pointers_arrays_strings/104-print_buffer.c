@@ -11,7 +11,6 @@
 void print_buffer(char *b, int size)
 {
 	int o, j, i;
-	int c;
 
 	o = 0;
 
@@ -45,9 +44,7 @@ void print_buffer(char *b, int size)
 			}
 			printf("%c", c);
 		}
-		printf("%c", c);
+		printf("\n");
+		o += 10;
 	}
-	printf("\n");
-	o += 10;
 }
-
